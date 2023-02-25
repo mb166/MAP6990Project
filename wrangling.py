@@ -13,7 +13,7 @@ df['time'] = df['time'].map(lambda time: pd.to_datetime(time, unit='s'))
 #df.to_csv('data\\bitcoinotcTimeStamps.csv')
 
 #printing out the beginning and end of the data
-head = df.head(50)
-tail = df.tail(50)
-print(head)
-print(tail)
+head = df.head(10)
+tail = df.tail(10)
+print("FIRST 10 ENTRIES\n", head)
+print("LAST 10 ENTRIES \n", tail)
