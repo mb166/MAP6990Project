@@ -1,4 +1,4 @@
-,source node,target node,rating,time
+ID,Source,Target,Weight,timeset
 0,6,2,4,2010-11-08 18:45:11.728359936
 1,6,5,2,2010-11-08 18:45:41.533780224
 2,1,15,1,2010-11-08 19:05:40.390490112
